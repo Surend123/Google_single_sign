@@ -1,0 +1,170 @@
+.home-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .home-header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, rgb(108, 108, 235), rgb(0, 153, 255));
+    color: white;
+  }
+  
+  .home-header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .home-header span {
+    color: rgb(255, 0, 60);
+  }
+  
+  .home-header p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .cta-buttons {
+    margin-top: 20px;
+  }
+  
+  .button-primary {
+    padding: 10px 20px;
+    background: rgb(0, 153, 255);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .button-primary:hover {
+    background: rgb(255, 0, 60);
+  }
+  
+  .features-section, .upcoming-events-section, .reviews-section {
+    margin: 40px 20px;
+    text-align: center;
+  }
+  
+  .features h2, .reviews-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .feature-card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card p {
+    font-size: 16px;
+  }
+  
+  .reviews {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .review-card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .review-card p {
+    font-style: italic;
+    font-size: 16px;
+  }
+  
+  .review-card h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .home-header h1 {
+      font-size: 28px;
+    }
+  
+    .home-header p {
+      font-size: 18px;
+    }
+  
+    .features {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .feature-card {
+      width: 100%;
+      max-width: 350px;
+    }
+  
+    .reviews {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .review-card {
+      width: 100%;
+      max-width: 350px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .home-header h1 {
+      font-size: 22px;
+    }
+  
+    .home-header p {
+      font-size: 16px;
+    }
+  
+    .features {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .feature-card {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .reviews {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .review-card {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  
